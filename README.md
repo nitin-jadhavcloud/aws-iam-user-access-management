@@ -1,15 +1,37 @@
+# 🔐 AWS IAM User Access Management – Least Privilege Project
 
-# aws-iam-user-access-management
+This project demonstrates how to implement **secure IAM user, group, and policy management in AWS** using the **Principle of Least Privilege**. It reflects a real-world scenario where users are assigned job-based access using AWS managed and custom IAM policies.
 
-aws-iam-user-access-management
-=======
-# AWS IAM Project: User Access Management & Least Privilege
+## 🟩 Project Summary
 
-## 📗📗 This project showcases how to manage AWS IAM users, groups, and permissions by following the least privilege principle. I created IAM groups based on job roles (Admins, Developers, QA Teams), assigned users to the appropriate groups, and then attached the necessary policies. The project includes both AWS managed policies and custom policies, such as S3 read-only access for QA and EC2 start/stop access for Developers. Admin users were granted full access using AdministratorAccess policy. This setup reflects real-world scenarios for secure access control in a cloud support environment.
+- 🔹 Created IAM Groups based on job roles (Admins, Developers, QA Teams)
+- 🔹 Added IAM Users to respective groups
+- 🔹 Attached appropriate AWS managed or custom policies to each group
+- 🔹 Enforced least privilege access to services like EC2 and S3
+- 🔹 Simulated support-level scenarios like permission troubleshooting and access configuration
 
----
+## ❓ Why I Built This Project
 
-## 🔧 What I Did – Step by Step (With Screenshots)
+As an aspiring AWS Cloud Support Engineer, I wanted to **simulate real-world IAM scenarios** faced in L1/L2 support roles.  
+This project helps demonstrate how to:
+
+- Resolve permission-related support tickets
+- Create and troubleshoot IAM roles and policies
+- Implement **secure access control** using the **Principle of Least Privilege**
+- Apply job-role based access management (like real enterprise teams: Admins, Developers, QA)
+
+It reflects common issues like:
+
+- “User cannot access S3 bucket” – Solved using policy attachment
+- “Developer unable to start EC2 instance” – Solved with custom EC2 policy
+- “Grant full access to Admin team” – Solved using AWS managed policies
+
+This project allowed me to practice **practical IAM concepts** beyond theory, just like those handled by support engineers in production environments.
+
+
+This setup mirrors practical IAM tasks handled by AWS Cloud Support Engineers (L1/L2).
+
+## ▶ What I Did – Step by Step (With Screenshots)
 
 ### ✅ Step 1: Created IAM Groups
 I created three IAM groups to organize users by their job roles:
