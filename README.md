@@ -74,7 +74,8 @@ A custom policy `S3ReadOnlyPolicy` was created to allow read-only access to an S
 ![S3 Policy](./Screenshot/Create-S3ReadonlyPolicy-1.1.png)
 
 📸 *Attached to QA Group*  
-![Attach S3 Policy 1](./Screenshot/Assign-S3ReadOnlyPolicy-QA-team-Group-1.1.png)  
+![Attach S3readonly policy  ](./Screenshot/Assign-S3ReadOnlyPolicy-QA-team-Group-1.1.png)  
+
 ![Attach S3 Policy 2](./Screenshot/Assign-S3ReadOnlyPolicy-QA-team-Group-1.2.png)
 
 ---
