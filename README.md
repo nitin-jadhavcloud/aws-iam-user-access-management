@@ -70,12 +70,13 @@ Created the following IAM users and added them to groups:
 
 A custom policy `S3ReadOnlyPolicy` was created to allow read-only access to an S3 bucket. It was attached to the `QA_Teams` group.
 
-📸 *S3 Read-Only Policy JSON*  
-![S3 Policy](./Screenshot/Screenshot/Create-S3ReadOnlyPolicy-1.1.png)
+📸 *S3 Read-Only Policy JSON* 
 
-Screenshot/Create-S3ReadOnlyPolicy-1.1.png
+![S3 Policy](./Screenshot/Create-S3ReadOnlyPolicy-1.1.png)
 
-📸 *Attached to QA Group*  
+
+📸 *Attached to QA Group* 
+
 ![Attach S3readonly policy  ](./Screenshot/Assign-S3ReadOnlyPolicy-QA-team-Group-1.1.png)  
 
 ![Attach S3 Policy 2](./Screenshot/Assign-S3ReadOnlyPolicy-QA-team-Group-1.2.png)
